@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+header{ 
+    display: flex;
+    height: 1000px;
+    background-image: url("/assets/headerback-g.png");
+    background-repeat: no-repeat;
+    flex-direction: column;
+}
+nav{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+nav li{
+    list-style: none;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin: 10px;
+}
+.sss{
+    background-color: rgba(255, 255, 255, 0.425);
+    margin: 0;
+    padding: 20px;
+    border-radius: 0 0 100% 0;
+}
+.nav1{
+    display: flex;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.head1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    /* background-color: rgba(255, 255, 255, 0.719); */
+    margin-top: 150px;
+}
+.head2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.719);
+}
+.sechead{
+    color: rgb(158, 111, 23);
+    text-transform: capitalize;
+    font-size: 2em;
+}
+.thirdhead{
+    text-transform: capitalize;
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.37);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.rec1{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+.rectext{
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+}
+.recimage img{
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+}
+.container-info{
+    display: flex;
+    justify-content: space-evenly;
+}
+.inforec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px;
+}
+.inforec h5{
+    margin: 6px;
+}
+.inforecp{
+    width: 60%;
+    line-height: 14px;
+    font-size: 14px;
+    color: gray;
+}
+.dot{
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 100%;
+    margin: 3px;
+}
+.dflex{
+    display: flex;
+}
+.menu{
+    background-image: url("/assets/section2.png");
+    width: auto;
+    height: 1150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-content{
+    width: 1000px;
+    height: 900px;
+    background-color: rgba(255, 255, 255, 0.548);
+}
+.main-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+}
+.mhead{
+    text-transform: capitalize;
+    font-size: 2em;
+}
+.main-menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+}
+.card-txt{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    text-align: center;
+}
+.card-img{
+    width: 200px;
+    height: 200px;
+    padding: 3px;
+
+}
+.card-img img{
+    width: 200px;
+    height: 200px;
+    border-radius: 4px;
+}
+.trad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+}
+.th1{
+    margin: 20px;
+}
+.tp{
+    width: 50%;
+    color: rgb(122, 122, 122);
+    margin-bottom: 50px;
+}
+.tradmenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tradmenu li{
+    list-style: none;
+    margin:10px 10px 0 10px ;
+}
+.last-menu{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    background-image: url("/assets/lamenu1.png");
+    align-items: flex-end;
+}
+.last-menu-place{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 400px;
+    background-color:rgba(255, 255, 255, 0.548) ;
+}
+.lastmehe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+.mdesc{
+    font-size: 25px;
+    text-transform: capitalize;
+    font-weight: 700;
+    padding: 10px;
+}
+.newflex{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* flex-direction: column; */
+    /* margin: 10px; */
+}
+.newflex img{
+    width: 30px;
+    height: 30px;
+}
+.plai{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.alm{
+    display: flex;
+    width: 450px;
+    align-items: center;
+}
